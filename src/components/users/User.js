@@ -62,9 +62,9 @@ const User = ({ match }) => {
                 <p>{bio}</p>
               </Fragment>
             )}
-            <Link to={html_url} className='btn btn-dark my-1'>
+            <a href={html_url} className='btn btn-dark my-1'>
               Visit Github Profile
-            </Link>
+            </a>
             <ul>
               <li>
                 {login && (
